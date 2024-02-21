@@ -1,0 +1,14 @@
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/bin/Debug/net8.0/airtek-assessment
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/bin/Debug/net8.0/airtek-assessment.deps.json
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/bin/Debug/net8.0/airtek-assessment.runtimeconfig.json
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/bin/Debug/net8.0/airtek-assessment.dll
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/bin/Debug/net8.0/airtek-assessment.pdb
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/airtek-assessment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/airtek-assessment.AssemblyInfoInputs.cache
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/airtek-assessment.AssemblyInfo.cs
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/airtek-assessment.csproj.CoreCompileInputs.cache
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/airtek-assessment.dll
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/refint/airtek-assessment.dll
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/airtek-assessment.pdb
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/airtek-assessment.genruntimeconfig.cache
+/Users/devilsworkshop/my-projects/interviews/airtek-assessment/obj/Debug/net8.0/ref/airtek-assessment.dll
