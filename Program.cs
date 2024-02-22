@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string filePath = "data/orders.json"; // Adjust as needed
+        string filePath = "data/orders.json"; // Harcoded file-path, Adjust as needed
         
         var orderProcessor = new JsonOrderProcessor( 
             new FileJsonReader(), 

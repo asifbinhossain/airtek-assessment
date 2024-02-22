@@ -60,6 +60,7 @@ class Airport {
             { "YVR", "Vancouver" },
             { "YUL", "Montreal" },
             { "YYC", "Calgary" },
+            { "YYE", "Fort Nelson"}
         };
         if (!airportCodes.ContainsKey(airportCode.IATA))
         {

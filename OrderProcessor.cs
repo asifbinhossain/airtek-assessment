@@ -11,11 +11,13 @@ class JsonOrderProcessor(IJsonReader reader, IConsoleWriter writer)
         var orders = orderService.GetOrders();
 
         // Write Flights to console
+        Console.WriteLine("\nUser story #1: Display Flights");
         var flightService = new FlightServiceStatic();
         var flights = flightService.GetFlights();
         writer.WriteFlights(flights);
 
         // Assign orders to flights
+        Console.WriteLine("\nUser story #2: Assign Orders to Flights");
         var flightInventoryManager = new FlightInventoryManager(flights, orders);
         flightInventoryManager.AssignOrdersToFlights();
         
