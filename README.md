@@ -66,3 +66,20 @@ Flight 6: Montreal (YUL) to Vancouver (YVR)
 
 -   Install dotnet 8.0 or higher
 -   Run `dotnet run` in the root directory of this project
+
+# Constraints & Assmptions
+
+-   Only 2 days of flights are scheduled (hardcoded)
+-   Each plane has a capacity of 20 boxes (hardcoded)
+-   Flights running from YUL(Monteal) only
+-   Flights returning to YUL at midnight
+-   Orders are listed in priority order ie. 1..N
+-   The application is not interactive
+-   The application is driven from a main method
+-   The application does not use a database
+
+# Potential Day 2 improvements
+
+-   Pass a different filepath to the application with the arguments
+-   Add unit tests
+-   Dependency injection container for potential db use
