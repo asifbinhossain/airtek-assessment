@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("airtek-assessment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+490b85ebfbd663da53d4b8bb228f5944f00f3b8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("airtek-assessment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("airtek-assessment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

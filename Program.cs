@@ -1,14 +1,26 @@
-﻿namespace airtek_assessment;
+﻿using System.Buffers;
+
+namespace airtek_assessment;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("What is your name?");
-        var name = Console.ReadLine();
-        var currentDate = DateTime.Now;
-        Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
-        Console.Write($"{Environment.NewLine}Press any key to exit...");
-        Console.Read();
+        string filePath = "data/orders.json"; // Adjust as needed
+        
+        var orderProcessor = new JsonOrderProcessor( 
+            new FileJsonReader(), 
+            new ProgramConsoleWriter()
+        );
+
+
+        try
+        {
+            orderProcessor.ProcessOrders(filePath);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error processing orders: {ex.Message}");
+        }
     }
 }
