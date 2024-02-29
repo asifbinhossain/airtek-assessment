@@ -9,7 +9,7 @@ class Flight
 
     private int Capacity { get; set; }
 
-    private List<Order> Orders { get; set; }
+    public List<Order> Orders { get; set; }
 
     public Flight(int id, Airport origin, Airport destination, int day)
     {

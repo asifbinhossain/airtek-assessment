@@ -17,6 +17,19 @@ class FlightInventoryManager(List<Flight> flights, List<Order> orders)
         }
     }
 
+    public void GetOrdersInAFlight(int flightId){
+        var flight = this.flights.FirstOrDefault(flight => flight.Id == flightId);
+        if (flight != null) {
+            Console.WriteLine($"Flight: {flight.Id}, departure: {flight.Origin.Code.IATA}, arrival: {flight.Destination.Code.IATA}, day: {flight.Day}");
+            Console.WriteLine("Orders:");
+            foreach (var order in flight.Orders) {
+                Console.WriteLine($"Order: {order.Id}");
+            }
+            return;
+        }
+        Console.WriteLine($"Flight: {flightId} not found");
+    }
+
 
     private List<Flight> GetAvailableFlights(AirportCode destination) {
         var filteredFlights = this.flights.Where(
