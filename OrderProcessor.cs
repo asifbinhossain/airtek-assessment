@@ -19,11 +19,12 @@ class JsonOrderProcessor(IJsonReader reader, IConsoleWriter writer)
         // Assign orders to flights
         Console.WriteLine("\nUser story #2: Assign Orders to Flights");
         var flightInventoryManager = new FlightInventoryManager(flights, orders);
-        flightInventoryManager.AssignOrdersToFlights();
+        // flightInventoryManager.AssignOrdersToFlights();
+        flightInventoryManager.AssignOrdersToFlightsByPriority();
 
         // Print Orders for a flight
-        Console.WriteLine("\nUser story #3: Get Orders in a Flight");
-        flightInventoryManager.GetOrdersInAFlight(5);
+        // Console.WriteLine("\nUser story #3: Get Orders in a Flight");
+        // flightInventoryManager.GetOrdersInAFlight(5);
         
     }
 }

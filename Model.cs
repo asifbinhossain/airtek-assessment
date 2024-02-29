@@ -88,9 +88,34 @@ class AirportCode {
 class Order{
     public string Id { get; set; }
     public Airport Destination { get; set; }
-    public Order(string id, Airport destination)
+
+    public OrderPriority Priority { get; set; }
+    public Order(string id, Airport destination, OrderPriority priority)
     {
         Id = id;
         Destination = destination;
+        Priority = priority;
     }
+
+    public static OrderPriority fromStringToEnum(string priority)
+    {
+        if (priority == "same-day")
+        {
+            var result = OrderPriority.same_day;
+            return result;
+        }
+        if (priority == "next-day")
+        {
+            var result = OrderPriority.next_day;
+            return result;
+
+        }
+        return OrderPriority.regular;
+    }
+}
+
+enum OrderPriority {
+    same_day,
+    next_day,
+    regular
 }
